@@ -17,7 +17,7 @@ const renderMenu = () => {
         const newDiv = document.createElement('div');
         newDiv.setAttribute('class', 'text menu-item');
         newDiv.innerHTML = `
-        <img src="../src//images/image${element.image}.jpg" alt="menu-item-${element.image}" class="menu-image">
+        <img src="../src/images/image${element.image}.jpg" alt="menu-item-${element.image}" class="menu-image">
         <div class="menu-name">${element.name}</div>
         <div class="menu-description">${element.description}</div>
         <div class="menu-price">Price: ${element.price} HRK</div>`
